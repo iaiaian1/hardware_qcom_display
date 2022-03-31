@@ -13,7 +13,12 @@ PRODUCT_PACKAGES += libdisplayconfig \
                     liblayerext.qti \
                     libsmomoconfig.qti \
                     libcomposerextn.qti \
-                    libdisplayconfig.qti
+                    libdisplayconfig.qti \
+                    vendor.qti.hardware.display.config-V1-ndk_platform \
+                    vendor.qti.hardware.display.config-V2-ndk_platform \
+                    vendor.qti.hardware.display.config-V3-ndk_platform \
+                    vendor.qti.hardware.display.config-V4-ndk_platform \
+                    vendor.qti.hardware.display.config-V5-ndk_platform
 
 SOONG_CONFIG_NAMESPACES += qtidisplaycommonsys
 # Soong Keys
